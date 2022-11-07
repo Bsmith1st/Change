@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Component1 from './Component1';
+import background from './ASSETS FOLDER/pattern-background-desktop (1).svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Component1 />
+
+
+
+      <div className='me' style={{ backgroundImage: `url(${background})` }} >
+
+      </div>
+
     </div>
   );
 }
